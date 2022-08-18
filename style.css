@@ -292,6 +292,7 @@ a{
     {
         flex-direction: column;
         justify-content: center;
+        
     }
     .card1
     {
@@ -370,6 +371,7 @@ a{
     height: auto;
     display: flex;
     overflow-x: hidden;
+    animation: opacity 1.2s;
 }
 
 
@@ -880,3 +882,32 @@ footer
     letter-spacing: 2px;
     background-color: #000813;
 }
+
+
+.reveal
+{
+    
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+    overflow: hidden;
+}
+
+.reveal.active
+{
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+@keyframes opacity
+{
+    from{
+        opacity: 0;
+    }
+    to
+    {
+        opacity: 1;
+
+    }
+}
+
