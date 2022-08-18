@@ -506,7 +506,7 @@ a{
     position: relative;
     background-color: transparent;
     display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
     background: #000812 ;
     flex-direction: column;
 }
@@ -522,7 +522,7 @@ a{
     width: 100vw;
     height: auto;
     display: flex;
-    overflow-x: hidden;
+    overflow: hidden;
     background: #000812 ;
 }
 
