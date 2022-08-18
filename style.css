@@ -229,10 +229,6 @@ a{
         height: 18vw;
         
     }
-    .imagine
-    {
-        
-    }
     .sec1
     {
         height: 100vh;
@@ -323,7 +319,7 @@ a{
     .imagine
     {
         
-        width: 400px;
+        width: 80vw;
         height: auto;
     }
 
