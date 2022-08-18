@@ -16,6 +16,7 @@ body {
  background-repeat: no-repeat;
  background-attachment: fixed;
  overflow-x: hidden;
+
 }
 
 /*
@@ -489,7 +490,7 @@ a{
     align-items: center;
     justify-content: center;
     width: 100vw;
-    background: #011126 ;
+    background: #000812 ;
 }
 .sec3
 {
@@ -500,7 +501,7 @@ a{
     background-color: transparent;
     display: flex;
     overflow-x: hidden;
-    background: #011126 ;
+    background: #000812 ;
     flex-direction: column;
 }
 
@@ -516,7 +517,7 @@ a{
     height: auto;
     display: flex;
     overflow-x: hidden;
-    background: #011126 ;
+    background: #000812 ;
 }
 
 /*####################*/
