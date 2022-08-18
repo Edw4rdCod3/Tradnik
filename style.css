@@ -290,7 +290,7 @@ a{
 
     .main
     {
-        flex-direction: column-reverse;
+        flex-direction: column;
         justify-content: center;
     }
     .card1
@@ -310,12 +310,16 @@ a{
     {
 
         display: flex;
-        padding: 100px;
+        padding: 00px;
         width: 70vw;
         height: auto;
         justify-content: center;
         align-items: center;
    
+    }
+
+    .card1{
+        padding: 100px;
     }
     .imagine
     {
@@ -336,7 +340,7 @@ a{
 
     .explore-button
     {
-        padding: 16px 70px;
+        padding: 16px 40px;
     }
 }
 
