@@ -215,7 +215,7 @@ a{
         width: 80vw;
         flex-direction: row;
         justify-content: space-between;
-        
+        margin-bottom: 30px;
     }
     .progress
     {
@@ -881,6 +881,7 @@ footer
     color: white;
     letter-spacing: 2px;
     background-color: #000813;
+    flex-direction: column;
 }
 
 
@@ -911,3 +912,8 @@ footer
     }
 }
 
+
+.fa-brands
+{
+ padding: 10px;
+}
