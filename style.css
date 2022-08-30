@@ -126,7 +126,7 @@ a{
     height: 100vh;
     background-color: #000000;
     z-index: 100;
-    overflow-x: hidden;
+ 
 
     position: fixed;
 
@@ -151,6 +151,7 @@ a{
     }
     .responsive
     {
+        
         float: left;
         width: 33.33%;   
     }
@@ -196,6 +197,9 @@ a{
         align-items: center;
         justify-content: flex-start;
     }
+
+
+
     .text
     {
         margin: 0px 0px 4vh 0;
@@ -271,6 +275,7 @@ a{
     {
         flex-direction: column;
         width: 70vw;
+        margin: auto;
     }
     .service
     {
@@ -441,11 +446,12 @@ a{
         top: 0px;
         gap:0px ;
         flex-direction: column;
-        background-color: #121212;
+        background-color: #000812;
+        opacity: 19;
         width: 100%;
         height: 100vh;
         text-align: center;
-        transition: 0.3s;
+        transition: .6s;
         z-index: 12;
     }
 
@@ -784,6 +790,7 @@ a{
   justify-content: space-evenly;
   width: 400px;
   height: 300px;
+
 }
 
 @keyframes anim
@@ -816,7 +823,7 @@ a{
     display: flex;
     width: 100%;
     height: 20px;
-    background: rgba(111, 111, 111, 0.386);
+    background: rgba(255, 255, 255, 0.211);
     border-radius: 20px;
     margin-bottom: 25px;
     overflow: hidden;
@@ -832,7 +839,7 @@ a{
     width: 70%;
     height: 20px;
     border-radius: 20px;
-    background-image: linear-gradient(135deg, #481D73 ,#250050);
+    background: #481D73
 }
 .css::after
 {
@@ -842,7 +849,7 @@ a{
     content: '75%';
     width: 75%;
     height: 20px;
-    background-image: linear-gradient(135deg, #481D73 ,#250050);
+    background: #481D73
 }
 
 .photoshop::after
@@ -853,7 +860,7 @@ a{
     content: '80%';
     width: 80%;
     height: 20px;
-    background-image: linear-gradient(135deg, #481D73 ,#250050);
+    background: #481D73
 }
 .blender::after
 {
@@ -863,7 +870,7 @@ a{
     content: '35%';
     width: 35%;
     height: 20px;
-    background-image: linear-gradient(135deg, #481D73 ,#250050);
+    background: #481D73
 }
 
 .work
@@ -882,6 +889,7 @@ footer
     letter-spacing: 2px;
     background-color: #000813;
     flex-direction: column;
+    text-align: center;
 }
 
 
